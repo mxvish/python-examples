@@ -1,5 +1,3 @@
-#import sys
-#print(sys.argv[1])
 from matplotlib import pyplot as plt
 
 number=27
