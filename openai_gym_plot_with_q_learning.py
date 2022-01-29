@@ -1,3 +1,5 @@
+#change line 37&38 to test different cases
+
 import gym, numpy as np
 import matplotlib.pyplot as plt
 
@@ -32,7 +34,7 @@ if __name__ == '__main__':
     q_table = np.zeros((40, 40, 3))
     observation = env.reset()
     rewards = []
-    alpha = 0.2 # 学習率
+    alpha = 0.2 # 学習率   
     gamma = 0.99 # 時間割引き率
     episodes = 10000
 
@@ -71,4 +73,4 @@ plt.plot(rewards)
 plt.title("alpha = " + str(alpha) + ", gamma = " + str(gamma))
 plt.ylabel('Episode reward')
 plt.xlabel('Training episode')
-plt.savefig("output3.png")
+plt.savefig("output.png")
