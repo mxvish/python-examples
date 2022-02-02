@@ -4,7 +4,7 @@ import sys
 if len(sys.argv) > 1:
     number = int(sys.argv[1])
 else:
-    number = 27
+    number = 7
 
 startnum = number
 yaxis = []
