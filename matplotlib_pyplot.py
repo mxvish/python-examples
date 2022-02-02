@@ -1,10 +1,10 @@
 from matplotlib import pyplot as plt
 
-xaxis=[]
-yaxis=[]
+xaxis = []
+yaxis = []
 for x in range(3):
-    xaxis.append(x+1)
-    yaxis.append(pow(x+1, 2))
+    xaxis.append(x + 1)
+    yaxis.append(pow(x + 1, 2))
 
 print(xaxis)
 print(yaxis)
