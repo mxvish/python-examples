@@ -1,4 +1,5 @@
 from tkinter import *
+import subprocess as sp
 import time
 
 root = Tk()
@@ -11,6 +12,7 @@ def start():
     global count
 
     root.withdraw()
+    sp.call('open -a Terminal', shell=True)
     time.sleep(900)
     root.deiconify()
 
