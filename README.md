@@ -4,3 +4,4 @@
 These codes are independent, so you can run these files one by one.
 
 Png files are some example figures saved after executing <a href='openai_gym_in_q_learning.py'>openai_gym_in_q_learning.py</a>.
+<img src='alpha002_gamma098.png'>
